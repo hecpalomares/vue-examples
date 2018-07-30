@@ -81,6 +81,7 @@ export default {
     },
     signup() {
       fb.auth.createUserWithEmailAndPassword(this.signupForm.email, this.signupForm.password).then(user => {
+        debugger;
         this.$store.commit('setCurrentUser', user.user)
 
         fb.usersCollection.doc(user.uid).set({
