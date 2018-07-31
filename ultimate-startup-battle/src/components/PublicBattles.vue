@@ -1,0 +1,1 @@
+// This component will take care of fetching the public startup battles and displaying them to the user.
