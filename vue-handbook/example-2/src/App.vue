@@ -6,8 +6,9 @@
     <UserName name="Héctor"/>
     <UserName name="Gerardo"/>
     <UserName name="Palomares"/>
-    <Events/>
+    <EventsPlusMethods/>
     <Watcher/>
+    <Computed/>
   </div>
 </template>
 
@@ -15,8 +16,9 @@
 import HelloWorld from './components/HelloWorld.vue'
 import ByeWorld from './components/ByeWorld.vue'
 import UserName from './components/UserName.vue'
-import Events from './components/Events.vue'
+import EventsPlusMethods from './components/EventsPlusMethods.vue'
 import Watcher from './components/Watcher.vue'
+import Computed from './components/Computed.vue'
 
 export default {
   name: 'app',
@@ -24,8 +26,9 @@ export default {
     HelloWorld,
     ByeWorld,
     UserName,
-    Events,
-    Watcher
+    EventsPlusMethods,
+    Watcher,
+    Computed
   }
 }
 </script>
