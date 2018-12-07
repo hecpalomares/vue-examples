@@ -7,6 +7,7 @@
     <UserName name="Gerardo"/>
     <UserName name="Palomares"/>
     <Events/>
+    <Watcher/>
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import ByeWorld from './components/ByeWorld.vue'
 import UserName from './components/UserName.vue'
 import Events from './components/Events.vue'
+import Watcher from './components/Watcher.vue'
 
 export default {
   name: 'app',
@@ -22,7 +24,8 @@ export default {
     HelloWorld,
     ByeWorld,
     UserName,
-    Events
+    Events,
+    Watcher
   }
 }
 </script>

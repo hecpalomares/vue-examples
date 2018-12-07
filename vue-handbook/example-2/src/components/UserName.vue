@@ -4,7 +4,6 @@
     {{ name }} contains {{ characters }} characters.
   <!-- You can use any JavaScript expression inside your interpolations, but you’re limited to just one expression: -->
    {{ characters === 7 ? 'This is a lucky number!' : 'Not lucky number :(' }}
-  <hr>
   </div>
 </template>
 
