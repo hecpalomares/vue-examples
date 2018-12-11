@@ -9,6 +9,8 @@
     <EventsPlusMethods/>
     <Watcher/>
     <Computed/>
+    <Props name="Manning" age="40" position="QB"/>
+    <Props name="John Doe"/>
   </div>
 </template>
 
@@ -19,6 +21,7 @@ import UserName from './components/UserName.vue'
 import EventsPlusMethods from './components/EventsPlusMethods.vue'
 import Watcher from './components/Watcher.vue'
 import Computed from './components/Computed.vue'
+import Props from './components/Props.vue'
 
 export default {
   name: 'app',
@@ -28,7 +31,8 @@ export default {
     UserName,
     EventsPlusMethods,
     Watcher,
-    Computed
+    Computed,
+    Props
   }
 }
 </script>
