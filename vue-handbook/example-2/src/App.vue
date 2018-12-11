@@ -1,7 +1,5 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
     <ByeWorld/>
     <UserName name="Héctor"/>
     <UserName name="Gerardo"/>
@@ -11,28 +9,32 @@
     <Computed/>
     <Props name="Manning" age="40" position="QB"/>
     <Props name="John Doe"/>
+    <Filters/>
+    <ParentComponents />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import ByeWorld from './components/ByeWorld.vue'
 import UserName from './components/UserName.vue'
 import EventsPlusMethods from './components/EventsPlusMethods.vue'
 import Watcher from './components/Watcher.vue'
 import Computed from './components/Computed.vue'
 import Props from './components/Props.vue'
+import Filters from './components/Filters.vue'
+import ParentComponents from './components/components-2/ParentComponent.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
     ByeWorld,
     UserName,
     EventsPlusMethods,
     Watcher,
     Computed,
-    Props
+    Props,
+    Filters,
+    ParentComponents
   }
 }
 </script>
