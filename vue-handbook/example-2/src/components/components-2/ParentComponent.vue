@@ -42,7 +42,7 @@ export default {
     justify-content: center;
     flex: 1 0 50%;
     margin: 0 8px;
-    height: 100px;
+    padding: 20px 0;
     background: lightcyan;
   }
 </style>

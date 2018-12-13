@@ -1,5 +1,5 @@
 <template>
-  <div id="hobbies" :style="setBackground">
+  <div id="hobbies">
     {{ title }}
     {{ hobbies }}
   </div>
