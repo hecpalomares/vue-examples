@@ -18,7 +18,8 @@ export default {
   watch: {
     // Name of the prop/data to be watched, parameters that represent the new value or the old value
     name(newValue, oldValue) {
-      this.counter++;
+      let value = newValue - oldValue;
+      this.counter = value;
     }
   },
   methods: {
