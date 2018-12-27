@@ -10,7 +10,7 @@
 export default {
   methods: {
     changed(event) {
-      this.$store.commit('change', event.target.value)
+      this.$store.commit('changeFlavor', event.target.value)
     }
   }
 }

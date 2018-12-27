@@ -10,11 +10,11 @@ export const store = new Vuex.Store({
   },
   // The state cannot be manipulated except by using mutations.
   mutations: {
-    change(state, flavor) {
+    changeFlavor(state, flavor) {
       state.flavor = flavor;
     }
   },
-  getter: {
-    flavor: state => state.flavor // getter is an object, flavor is a property of this object, accepts state as the parameter and returns flavor property of the state
+  getters: {
+    flavor: state => state.flavor // getters is an object, flavor is a property of this object, accepts state as the parameter and returns flavor property of the state
   }
 });

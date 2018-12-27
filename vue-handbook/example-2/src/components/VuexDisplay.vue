@@ -1,5 +1,5 @@
 <template>
   <div>
-    <p>You chose ???</p>
+    <p>You chose {{ $store.getters.flavor }}</p>
   </div>
 </template>
